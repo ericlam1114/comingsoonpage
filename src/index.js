@@ -21,10 +21,10 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "15px",
     paddingLeft: "8.5px",
     marginLeft: "5px",
-    marginRight: "5px"
+    marginRight: "5px",
   },
   counter: {
-    fontSize: "30px"
+    fontSize: "30px",
   },
   box: {
     display: "inline-block",
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "14px",
     fontSize: "16px",
     borderRadius: "80px",
-    color: "white"
+    color: "white",
   },
 
   logo: {
@@ -43,24 +43,24 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "auto",
     marginRight: "auto",
     marginBottom: "20px",
-    width: "50%"
+    width: "50%",
   },
   button: {
     background: "#9340FF",
-    color: "white"
+    color: "white",
   },
   content: {
     padding: theme.spacing(8, 0, 6),
     // backgroundImage: "linear-gradient(red, yellow);",
     height: "800px",
     // background: "rgb(131,58,180)",
-    background: "#101728"
+    background: "#101728",
   },
   comingSoon: {
     marginTop: "30px",
     lineHeight: "1.5",
-    color: "white"
-  }
+    color: "white",
+  },
 }));
 
 export default function Album() {
@@ -112,7 +112,7 @@ export default function Album() {
             <br />
             {/* <Countdown date={"2020-02-01T01:02:03"} /> */}
             {/* Use above example for specific date */}
-            <Countdown date={Date.now() + 3000000000} renderer={renderer} />
+            <Countdown date={Date.now() + 1000000000} renderer={renderer} />
           </Typography>
           <Grid container spacing={0} alignItems="center" justify="center">
             <div>
