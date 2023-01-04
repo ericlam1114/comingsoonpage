@@ -128,7 +128,7 @@ export default function Album() {
               </Button>
             </div>
             <br />
-            <div className={classes.video}>
+            <div className="videoEdit">
               <iframe
                 width="560"
                 height="315"
