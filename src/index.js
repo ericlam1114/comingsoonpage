@@ -48,11 +48,12 @@ const useStyles = makeStyles((theme) => ({
   button: {
     background: "#9340FF",
     color: "white",
+    marginBottom: "40px",
   },
   content: {
     padding: theme.spacing(8, 0, 6),
     // backgroundImage: "linear-gradient(red, yellow);",
-    height: "800px",
+    height: "100%",
     // background: "rgb(131,58,180)",
     background: "#101728",
   },
@@ -125,6 +126,18 @@ export default function Album() {
               >
                 Apply Here
               </Button>
+            </div>
+            <br />
+            <div className={classes.video}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/C239XO_FU9E"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </Grid>
         </Container>
