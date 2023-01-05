@@ -8,7 +8,7 @@ const useStylesToo = makeStyles((theme) => ({
     // width: "100px",
     // height: "100px",
     // margin: "0 5px",
-    // paddingTop: "14px",
+    paddingBottom: "2rem",
     fontSize: "1rem",
     // borderRadius: "80px",
     color: "white"
