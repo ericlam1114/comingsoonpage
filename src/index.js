@@ -9,6 +9,8 @@ import logo from "./assets/logo.png";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import "./styles.css";
+import WhatIsIt from "./components/whatisit";
+import ExplanationBox from "./components/explanationbox";
 
 const useStyles = makeStyles((theme) => ({
   circle: {
@@ -21,10 +23,10 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "15px",
     paddingLeft: "8.5px",
     marginLeft: "5px",
-    marginRight: "5px",
+    marginRight: "5px"
   },
   counter: {
-    fontSize: "30px",
+    fontSize: "30px"
   },
   box: {
     display: "inline-block",
@@ -34,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "14px",
     fontSize: "16px",
     borderRadius: "80px",
-    color: "white",
+    color: "white"
   },
 
   logo: {
@@ -43,25 +45,56 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "auto",
     marginRight: "auto",
     marginBottom: "20px",
-    width: "50%",
+    width: "50%"
   },
   button: {
     background: "#9340FF",
     color: "white",
-    marginBottom: "40px",
+    marginBottom: "80px"
+    // marginBottom: "2rem",
   },
   content: {
     padding: theme.spacing(8, 0, 6),
     // backgroundImage: "linear-gradient(red, yellow);",
     height: "100%",
     // background: "rgb(131,58,180)",
-    background: "#101728",
+    background: "#101728"
   },
   comingSoon: {
     marginTop: "30px",
     lineHeight: "1.5",
-    color: "white",
+    color: "white"
   },
+  hero: {
+    display: "inline-block",
+    // width: "100px",
+    // height: "100px",
+    // margin: "0 5px",
+    // paddingTop: "14px",
+    fontSize: "4rem",
+    // borderRadius: "80px",
+    color: "white"
+  },
+  subtext: {
+    display: "inline-block",
+    // width: "100px",
+    // height: "100px",
+    // margin: "0 5px",
+    // paddingTop: "14px",
+    fontSize: "1rem",
+    // borderRadius: "80px",
+    color: "white"
+  },
+  seperator: {
+    // display: "inline-block",
+    // width: "100px",
+    // height: "100px",
+    // margin: "0 5px",
+    // paddingTop: "14px",
+    // fontSize: "1rem",
+    borderRadius: "80px"
+    // color: "white"
+  }
 }));
 
 export default function Album() {
@@ -109,7 +142,28 @@ export default function Album() {
             className={classes.comingSoon}
             gutterBottom
           >
-            NFT Community Growth Software
+            <h1 className={classes.hero}>NFT Community Growth Software</h1>
+            <p className={classes.subtext}>
+              <span role="img" aria-label="smile">
+                😊
+              </span>{" "}
+              100% Free to use
+              <br />
+              <span role="img" aria-label="robot">
+                🤖
+              </span>{" "}
+              Discord native integration
+              <br />
+              <span role="img" aria-label="mail">
+                📥
+              </span>{" "}
+              Data easy exportable to CSV
+              <br />
+              <span role="img" aria-label="chain">
+                🔗
+              </span>{" "}
+              Automated data matching
+            </p>
             <br />
             {/* <Countdown date={"2020-02-01T01:02:03"} /> */}
             {/* Use above example for specific date */}
@@ -118,6 +172,7 @@ export default function Album() {
           <Grid container spacing={0} alignItems="center" justify="center">
             <div>
               <br />
+
               <Button
                 className={classes.button}
                 variant="contained"
@@ -129,6 +184,7 @@ export default function Album() {
             </div>
             <br />
             <div className="videoEdit">
+              <WhatIsIt></WhatIsIt>
               <iframe
                 width="560"
                 height="315"
@@ -138,7 +194,16 @@ export default function Album() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
+              <ExplanationBox></ExplanationBox>
             </div>
+            <Button
+              className={classes.button}
+              variant="contained"
+              size="large"
+              href="https://forms.gle/vwt3CcjFVmBDs6cq9"
+            >
+              Apply Here
+            </Button>
           </Grid>
         </Container>
       </div>
