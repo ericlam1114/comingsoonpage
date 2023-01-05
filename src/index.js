@@ -9,8 +9,8 @@ import logo from "./assets/logo.png";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import "./styles.css";
-import WhatIsIt from "./components/whatisit";
-import ExplanationBox from "./components/explanationbox";
+import WhatIsIt from "./components/Whatisit";
+import ExplanationBox from "./components/Explanationbox";
 
 const useStyles = makeStyles((theme) => ({
   circle: {
@@ -190,7 +190,7 @@ export default function Album() {
                 height="315"
                 src="https://www.youtube.com/embed/C239XO_FU9E"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>

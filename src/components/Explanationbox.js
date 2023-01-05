@@ -18,7 +18,6 @@ export default function explanationbox() {
   const classes = useStyles();
   return (
     <div className={classes.container}>
-      {/* <h2>Why Do Cats Like Boxes?</h2> */}
       <p>
         DataDegen is an NFT marketing funnel similar to ClickFunnels.com, but
         for NFT projects. This software integrates into your Discord to

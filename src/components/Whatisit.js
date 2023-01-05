@@ -20,14 +20,14 @@ export default function whatisit() {
   return (
     <div>
       <Typography
-        component="h1"
-        variant="h2"
+        // component="h1"
+        // variant="h4"
         align="center"
         color="textPrimary"
         className={classes.comingSoon}
         gutterBottom
       >
-        <h2 className={classes.text}>What is it?</h2>
+        <div className={classes.text}>What is it?</div>
       </Typography>
     </div>
   );
