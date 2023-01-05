@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 // import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles((theme) => ({
+const useStylesToo = makeStyles((theme) => ({
   container: {
     display: "inline-block",
     // width: "100px",
@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
     color: "white"
   }
 }));
-export default function explanationbox() {
-  const classes = useStyles();
+export default function Explanationbox() {
+  const classes = useStylesToo();
   return (
     <div className={classes.container}>
       <p>

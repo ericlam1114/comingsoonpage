@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "4rem"
   }
 }));
-export default function whatisit() {
+export default function Whatisit() {
   const classes = useStyles();
   return (
     <div>
