@@ -20,7 +20,7 @@ export default function Explanationbox() {
     <div className={classes.container}>
       <p>The perfect tool for growth hackers.</p>
       <p>
-        Collect Emails, Discordids and Twitter handles effortlessly and fast.
+        Collect Emails, Discord IDs and Twitter handles effortlessly and fast.
       </p>
       <p>
         Don't struggle with growth and sustainability. The tools are{" "}
