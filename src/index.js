@@ -186,8 +186,8 @@ export default function Album() {
             <div className="videoEdit">
               <WhatIsIt></WhatIsIt>
               <iframe
-                width="560"
-                height="315"
+                width="400"
+                height="225"
                 src="https://www.youtube.com/embed/C239XO_FU9E"
                 title="YouTube video player"
                 frameBorder="0"
