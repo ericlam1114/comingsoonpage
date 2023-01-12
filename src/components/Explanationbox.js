@@ -18,7 +18,9 @@ export default function Explanationbox() {
   const classes = useStylesToo();
   return (
     <div className={classes.container}>
-      <p>The perfect tool for growth hackers.</p>
+      <p>
+        <i>The perfect tool for growth hackers.</i>
+      </p>
       <p>
         Collect Emails, Discord IDs and Twitter handles effortlessly and fast.
       </p>
