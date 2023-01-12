@@ -22,7 +22,13 @@ export default function Explanationbox() {
       <p>
         Collect Emails, Discordids and Twitter handles effortlessly and fast.
       </p>
-      <p>Don't struggle with growth and sustainability. The tools are 👇.</p>
+      <p>
+        Don't struggle with growth and sustainability. The tools are{" "}
+        <span role="img" aria-label="smile">
+          👇
+        </span>
+        .
+      </p>
     </div>
   );
 }
