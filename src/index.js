@@ -142,7 +142,7 @@ export default function Album() {
             className={classes.comingSoon}
             gutterBottom
           >
-            <h1 className={classes.hero}>NFT Community Growth Software</h1>
+            <h1 className={classes.hero}>Grow Your NFT Community</h1>
             <p className={classes.subtext}>
               <span role="img" aria-label="smile">
                 😊

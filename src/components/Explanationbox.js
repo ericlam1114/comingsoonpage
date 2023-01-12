@@ -18,19 +18,11 @@ export default function Explanationbox() {
   const classes = useStylesToo();
   return (
     <div className={classes.container}>
+      <p>The perfect tool for growth hackers.</p>
       <p>
-        DataDegen is an NFT marketing funnel similar to ClickFunnels.com, but
-        for NFT projects. This software integrates into your Discord to
-        proactively present compelling offers in exchange for users supplying
-        emails etc.
+        Collect Emails, Discordids and Twitter handles effortlessly and fast.
       </p>
-      <p>
-        We cross-reference user submitted data with the blockchain so that you
-        get the ability to segment power users, from casual users. All data is
-        exportable to CSV and can be easily used for Twitter lookalike
-        audiences, email flows etc. empowering you to more effectively engage
-        with your audience via omnichannel strategies.
-      </p>
+      <p>Don't struggle with growth and sustainability. The tools are 👇.</p>
     </div>
   );
 }
